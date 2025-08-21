@@ -1,12 +1,12 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/help",
-      "destination": "https://chatbase.co/CZs5U7PE-GinThoWsBgxf/help"
+      "src": "/help",
+      "dest": "/help.html"
     },
     {
-      "source": "/help/:path*",
-      "destination": "https://chatbase.co/CZs5U7PE-GinThoWsBgxf/help/:path*"
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }
