@@ -1,5 +1,12 @@
 {
-  "outputDirectory": "public",
-  "buildCommand": "echo 'No build needed'",
-  "framework": null
+  "rewrites": [
+    {
+      "source": "/help",
+      "destination": "https://chatbase.co/CZs5U7PE-GinThoWsBgx/help"
+    },
+    {
+      "source": "/help/:path*",
+      "destination": "https://chatbase.co/CZs5U7PE-GinThoWsBgx/help/:path*"
+    }
+  ]
 }
